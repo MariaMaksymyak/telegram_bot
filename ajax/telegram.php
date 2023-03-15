@@ -2,12 +2,11 @@
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
-$token = "6260536615:AAH4IxUVYsq05YyzX2dynM60l87qxol0j2A"
+$token = "6260536615:AAH4IxUVYsq05YyzX2dynM60l87qxol0j2A";
 $chat_id = "-848525431";
 $arr = array(
     'User name: ' => $name,
-    'User email: ' => $email
-
+    'User email: ' => $email,
 );
 
 foreach($arr as $key => $value) {
